@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <main>
       <NavBar />
+      <h1>Hello Michal Białek</h1>
     </main>    
   )
 }
