@@ -2,6 +2,7 @@
 
 import Script from 'next/script';
 import NavBar from '@/components/NavBar';
+import Link from 'next/link';
 
 
 export default function Home() {
@@ -10,6 +11,11 @@ export default function Home() {
       <NavBar />
       <h1 className='text-center text-2xl'>Hello Michal Białek</h1>
       <Script type="text/javascript" src="https://s.skimresources.com/js/250980X1734811.skimlinks.js"></Script>
-    </main>    
+      <ul>
+        <li>
+          <Link href={'https://Pdiskshortnearn.xyz/h0evQzyd'}>Link1</Link>
+        </li>
+      </ul>
+    </main>
   )
 }
