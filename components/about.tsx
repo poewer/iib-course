@@ -1,6 +1,6 @@
 'use client'
 import AccordionDemo from "./AccordionDemo";
-import Script from 'next/script';
+import ADS from "./AdsGoogle";
 
 const About = () => {
     return (
@@ -13,6 +13,7 @@ const About = () => {
                     <br />focusing on the creation and maintenance of integrated systems using REST API, SOAP, YAML configuration files, and XML.
                 </p>
             </section>
+            <ADS />
             <div className="mt-16">
                 <AccordionDemo />
             </div>
