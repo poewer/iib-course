@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
