@@ -30,6 +30,9 @@ const NavBar = () => {
             <li className="mb-2 sm:mb-0 sm:mr-2">
               <a href="/ESQL" className="block py-2 pl-3 pr-4 text-white rounded md:p-0 dark:text-white " aria-current="page">ESQL</a>
             </li>
+            <li className="mb-2 sm:mb-0 sm:mr-2">
+              <a href="/webMethodsJourney" className="block py-2 pl-3 pr-4 text-white rounded md:p-0 dark:text-white " aria-current="page">webMethods Journey.</a>
+            </li>
           </ul>
         </div>
       </div>

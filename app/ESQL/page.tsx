@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const topics = [
+export const topics = [
     {
         id: 1,
         title: "Introduction, Data types and variable declaration",
@@ -85,7 +85,7 @@ export default function ESQL() {
             </section>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 mt-16 font-bold text-center">
                 {topics.map((topic) => (
-                    <Link key={topic.id} href={`/${topic.id}`}>
+                    <Link key={topic.id} href={`/ESQL/${topic.id}`}>
                         <div
                             key={topic.id}
                             className="cursor-pointer flex flex-col justify-center items-center py-2 w-full md:w-[350px] md:h-[350px] border-2 hover:border-4 border-cyan-50 rounded-2xl hover:border-b-4 hover:border-purple-600 hover:text-purple-600"
